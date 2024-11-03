@@ -22,7 +22,7 @@ def modulus(x, y):
 
 def square_root(x):
     if x < 0:
-        return "Cannot take the square root of a negative number."
+        return "Invalid input. Please enter a positive number."
     return math.sqrt(x)
 
 def main():
